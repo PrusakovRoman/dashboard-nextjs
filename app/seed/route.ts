@@ -164,7 +164,7 @@ export async function GET() {
     console.log('Seeding revenue...');
     await seedRevenue(client);
 
-    await client.end();
+    // await client.end();
 
     console.log('Database seeded successfully!');
 
